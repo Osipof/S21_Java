@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day00/ex00/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day00/ex01/Program.java" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Add day00 ex00, ex01">
+      <change beforePath="$PROJECT_DIR$/src/main/java/day00/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day00/ex01/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +103,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680968484945</updated>
-      <workItem from="1680968485943" duration="2645000" />
+      <workItem from="1680968485943" duration="3515000" />
     </task>
+    <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
+      <created>1680971394889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680971394889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add day00 ex00, ex01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add day00 ex00, ex01" />
   </component>
 </project>

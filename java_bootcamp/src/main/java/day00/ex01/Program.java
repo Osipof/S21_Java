@@ -16,15 +16,11 @@ public class Program {
         if (number != 2 && number != 3) {
             if (number % 2 == 0 || number % 3 == 0) {
                 isPrime = false;
-//            System.out.println("false " + iterations);
-//            System.exit(0);
             } else {
                 for (int i = 5; i <= Math.sqrt(number); i += 6, ++iterations) {
                     if (number % i == 0 || number % (i + 2) == 0) {
                         isPrime = false;
                         break;
-//                    System.out.println("false " + iterations);
-//                    System.exit(0);
                     }
                 }
             }
@@ -33,14 +29,14 @@ public class Program {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        if (sc.hasNextInt()) {
-            int number = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        if (scanner.hasNextInt()) {
+            int number = scanner.nextInt();
 
             checkArgument(number);
             checkPrime(number);
 
         }
-        sc.close();
+        scanner.close();
     }
 }
