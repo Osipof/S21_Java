@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Add ex02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day00/ex03/Program.java" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Add ex03">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day00/ex04/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.day00.ex03.Program">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.regulusb.Main" />
-      <module name="java_bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.regulusb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.day00.ex04.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.regulusb.day00.ex00.Program" />
       <module name="java_bootcamp" />
@@ -114,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day00.ex04.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day00.ex04.Program" />
+      <module name="java_bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day00.ex04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day00.ex04.Program" />
         <item itemvalue="Application.day00.ex03.Program" />
         <item itemvalue="Application.day00.ex02.Program" />
         <item itemvalue="Application.day00.ex01.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +134,8 @@
       <option name="presentableId" value="Default" />
       <updated>1680968484945</updated>
       <workItem from="1680968485943" duration="5170000" />
-      <workItem from="1680987438465" duration="2134000" />
+      <workItem from="1680987438465" duration="2491000" />
+      <workItem from="1681030617519" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -156,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680973623088</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add ex03">
+      <created>1680989922146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680989922146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,17 +176,7 @@
     <MESSAGE value="Add day00 ex00, ex01" />
     <MESSAGE value="ex01 delete comments" />
     <MESSAGE value="Add ex02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ex02" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/day00/ex03/Program.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add ex03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ex03" />
   </component>
 </project>
