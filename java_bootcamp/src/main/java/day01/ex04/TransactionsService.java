@@ -3,7 +3,7 @@ package day01.ex04;
 import java.util.UUID;
 
 public class TransactionsService {
-    UsersList usersList = new UsersArrayList();
+    UsersArrayList usersList = new UsersArrayList();
 
     public void addUser(User user) {
         usersList.addUser(user);

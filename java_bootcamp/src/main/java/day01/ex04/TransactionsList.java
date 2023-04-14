@@ -1,7 +1,5 @@
 package day01.ex04;
 
-import day01.ex04.Transaction;
-
 import java.util.UUID;
 
 public interface TransactionsList {
