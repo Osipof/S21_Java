@@ -33,10 +33,5 @@ public class Program {
         } catch (UserNotFoundException exception) {
             exception.printStackTrace();
         }
-
-        System.out.println();
-        UsersArrayList list = new UsersArrayList();
-        list.addUser(new User("Ivan", 1000));
-        System.out.println(list.getUserByIndex(1));
     }
 }

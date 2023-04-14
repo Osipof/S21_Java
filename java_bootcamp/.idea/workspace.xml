@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Add day01 - ex00, ex01, ex02">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/TransactionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/TransactionsLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/TransactionsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/UserIdsGenerator.java" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Add day01 - ex03 and refactoring">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/IllegalTransactionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionsLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/UserIdsGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/UsersArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex04/UsersList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex00/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex00/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex00/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex00/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex01/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex01/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex01/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex01/UserIdsGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex02/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex02/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex02/UserIdsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UsersArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex02/UsersArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex02/UsersList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/ex03/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +72,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/day01/ex01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day01.ex04" />
       <recent name="day01.ex03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day01.ex03.Program">
+  <component name="RunManager" selected="Application.day01.ex02.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.ex01.Program" />
       <module name="java_bootcamp" />
@@ -144,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day01.ex02.Program" />
         <item itemvalue="Application.day01.ex03.Program" />
         <item itemvalue="Application.day01.ex00.Program" />
-        <item itemvalue="Application.day01.ex02.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.day00.ex04.Program" />
       </list>
@@ -165,7 +165,7 @@
       <workItem from="1681030617519" duration="4177000" />
       <workItem from="1681067907253" duration="5885000" />
       <workItem from="1681135305653" duration="4860000" />
-      <workItem from="1681484452119" duration="1674000" />
+      <workItem from="1681484452119" duration="5946000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681073769200</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add day01 - ex03 and refactoring">
+      <created>1681486190134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681486190134</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +230,7 @@
     <MESSAGE value="Add ex03" />
     <MESSAGE value="Add ex04" />
     <MESSAGE value="Add day01 - ex00, ex01, ex02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add day01 - ex00, ex01, ex02" />
+    <MESSAGE value="Add day01 - ex03 and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add day01 - ex03 and refactoring" />
   </component>
 </project>
