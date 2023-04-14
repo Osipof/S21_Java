@@ -1,13 +1,15 @@
-package day01.ex00;
+package day01.ex03;
 
 import java.util.UUID;
 
 public class Transaction {
-    private UUID identifier;
+    private final UUID identifier;
     private User recipient;
     private User sender;
     private Category transferCategory;
     private int transferAmount;
+    private Transaction next;
+
     enum Category {
         DEBIT,
         CREDIT,
@@ -23,10 +25,6 @@ public class Transaction {
 
     public UUID getIdentifier() {
         return identifier;
-    }
-
-    public void setIdentifier(UUID identifier) {
-        this.identifier = identifier;
     }
 
     public User getRecipient() {
@@ -78,13 +76,16 @@ public class Transaction {
         }
     }
 
-    @Override
-    public String toString() {
-        return "Transaction:" +
-                "\nidentifier = " + identifier +
-                "\nrecipient = " + recipient.getName() +
-                "\nsender = " + sender.getName() +
-                "\ntransferCategory = " + transferCategory +
-                "\ntransferAmount = " + transferAmount;
+    public Transaction getNext() {
+        return next;
+    }
+
+    public void setNext(Transaction next) {
+        this.next = next;
+    }
+
+    public void printTransferInfo() {
+        System.out.print("Sender: " + this.sender.getName() + ". Recipient: " + this.recipient.getName());
+        System.out.println(". Category: " + this.transferCategory + ". Amount: " + this.transferAmount);
     }
 }

@@ -2,8 +2,8 @@ package day01.ex02;
 
 public class UsersArrayList implements UsersList {
 
-    private Integer numberOfUsers = 0;
-    private Integer maxNumberOfUsers = 10;
+    private int numberOfUsers = 0;
+    private int maxNumberOfUsers = 10;
     private User[] users = new User[maxNumberOfUsers];
 
     @Override
@@ -20,7 +20,7 @@ public class UsersArrayList implements UsersList {
     }
 
     @Override
-    public User getUserById(Integer id) {
+    public User getUserById(int id) {
         for (int i = 0; i < numberOfUsers; i++) {
             if (users[i].getIdentifier() == id) {
                 return users[i];
@@ -30,15 +30,22 @@ public class UsersArrayList implements UsersList {
     }
 
     @Override
-    public User getUserByIndex(Integer index) {
-        if (index < 0 || index > numberOfUsers) {
+    public User getUserByIndex(int index) {
+        if (index < 0 || index >= numberOfUsers) {
             throw new UserNotFoundException("index with index " + index + " is not found");
         }
         return users[index];
     }
 
     @Override
-    public Integer getNumberOfUsers() {
+    public int getNumberOfUsers() {
         return numberOfUsers;
+    }
+
+    public void printList() {
+        for (int i = 0; i < numberOfUsers; i++) {
+            System.out.print((i + 1) + "\tName: " + users[i].getName() + " balance: " + users[i].getBalance());
+            System.out.println("\tid: " + users[i].getIdentifier());
+        }
     }
 }

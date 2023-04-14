@@ -1,11 +1,11 @@
 package day01.ex00;
 
 public class User {
-    private Integer identifier;
+    private int identifier;
     private String name;
-    private Integer balance;
+    private int balance;
 
-    public User(Integer identifier, String name, Integer balance) {
+    public User(int identifier, String name, int balance) {
         this.identifier = identifier;
         this.name = name;
         if (balance < 0) {
@@ -15,11 +15,11 @@ public class User {
         }
     }
 
-    public Integer getIdentifier() {
+    public int getIdentifier() {
         return identifier;
     }
 
-    public void setIdentifier(Integer identifier) {
+    public void setIdentifier(int identifier) {
         this.identifier = identifier;
     }
 
@@ -31,11 +31,11 @@ public class User {
         this.name = name;
     }
 
-    public Integer getBalance() {
+    public int getBalance() {
         return balance;
     }
 
-    public void setBalance(Integer balance) {
+    public void setBalance(int balance) {
         if (balance < 0) {
             this.balance = 0;
         } else {

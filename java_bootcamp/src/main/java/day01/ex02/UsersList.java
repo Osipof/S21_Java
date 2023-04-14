@@ -2,12 +2,12 @@ package day01.ex02;
 
 public interface UsersList {
 
-    public void addUser(User newUser);
+    void addUser(User newUser);
 
-    public User getUserById(Integer id);
+    User getUserById(int id);
 
-    public User getUserByIndex(Integer index);
+    User getUserByIndex(int index);
 
-    public Integer getNumberOfUsers();
+    int getNumberOfUsers();
 
 }

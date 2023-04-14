@@ -1,15 +1,15 @@
 package day01.ex01;
 
 public class User {
-    private final Integer identifier;
+    private final int identifier;
     private String name;
-    private Integer balance;
+    private int balance;
 
     public User() {
         this.identifier = UserIdsGenerator.getInstance().generateId();
         this.balance = 0;
     }
-    public User(String name, Integer balance) {
+    public User(String name, int balance) {
         this.identifier = UserIdsGenerator.getInstance().generateId();
         this.name = name;
         if (balance < 0) {
@@ -19,7 +19,7 @@ public class User {
         }
     }
 
-    public Integer getIdentifier() {
+    public int getIdentifier() {
         return identifier;
     }
 
@@ -31,11 +31,11 @@ public class User {
         this.name = name;
     }
 
-    public Integer getBalance() {
+    public int getBalance() {
         return balance;
     }
 
-    public void setBalance(Integer balance) {
+    public void setBalance(int balance) {
         if (balance < 0) {
             this.balance = 0;
         } else {
