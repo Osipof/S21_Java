@@ -15,6 +15,7 @@ public class Program {
             SignaturesChecker.analise(signatures, input);
             input = scanner.nextLine();
 
+
         }
     }
 }

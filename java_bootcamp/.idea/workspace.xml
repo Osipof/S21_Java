@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="day02 - reading signatures.txt and input strings">
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "CodeWithMe",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -155,7 +155,7 @@
       <workItem from="1681500109948" duration="8237000" />
       <workItem from="1681549674401" duration="3278000" />
       <workItem from="1681591780373" duration="6474000" />
-      <workItem from="1681599534019" duration="63000" />
+      <workItem from="1681599534019" duration="168000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681599336299</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <created>1681599627802</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681599627802</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +287,8 @@
     <MESSAGE value="Add day01 - ex05 dev options" />
     <MESSAGE value="day01 - add scanner.close()" />
     <MESSAGE value="day02 - reading signatures.txt and input strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="day02 - reading signatures.txt and input strings" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
