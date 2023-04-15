@@ -1,6 +1,7 @@
 package day01.ex05;
 
 import java.util.Scanner;
+import java.util.UUID;
 
 public class Menu {
 
@@ -138,6 +139,7 @@ public class Menu {
     }
 
     private void viewAllTransactionsOfUser() {
+        //TODO::TO JONH change to TO MIKE
         System.out.println("Enter a user ID");
         String input = scanner.nextLine().trim();
         try {
@@ -147,16 +149,13 @@ public class Menu {
                 throw new RuntimeException("User with ID = " + id + " hasn't any transactions");
             }
             for (Transaction item : transactions) {
-                int idUser = (item.getTransferCategory() == Transaction.Category.DEBIT) ?
-                        item.getSender().getIdentifier() :
-                        item.getRecipient().getIdentifier();
                 String category = (item.getTransferCategory() == Transaction.Category.DEBIT) ?
                         "From " :
                         "To ";
-                String name = (item.getTransferCategory() == Transaction.Category.DEBIT) ?
-                        item.getSender().getName() :
-                        item.getRecipient().getName();
-                System.out.println(category + name + "(id = " + idUser + ") " +
+                User user = (item.getTransferCategory() == Transaction.Category.DEBIT) ?
+                        item.getSender() :
+                        item.getRecipient();
+                System.out.println(category + user.getName() + "(id = " + user.getIdentifier() + ") " +
                         item.getTransferAmount() + " with id = " + item.getIdentifier());
             }
         } catch (Exception e) {
@@ -166,11 +165,83 @@ public class Menu {
         }
     }
 
+    private Transaction hgetTransaction(Transaction[] transactions, UUID transactionId) {
+        if (transactions == null) {
+            throw new RuntimeException("Transaction with id = " + transactionId + " not found");
+        }
+        for (Transaction item : transactions) {
+            if (item.getIdentifier().equals(transactionId)) {
+                return item;
+            }
+        }
+        return null;
+    }
+
     private void removeTransferById() {
-        System.out.println("removeTransferById");
+        System.out.println("Enter a user ID and a transfer ID");
+        String input = scanner.nextLine().trim();
+        try {
+            String[] inputArr = input.split("\\s+");
+            if (inputArr.length != 2) {
+                throw new RuntimeException("Invalid data. Try again");
+            }
+            int userId = Integer.parseInt(inputArr[0]);
+            UUID transactionId = UUID.fromString(inputArr[1]);
+
+            Transaction transaction = hgetTransaction(facade.getTransactionsList(userId), transactionId);
+            if (transaction == null) {
+                throw new RuntimeException("Transaction with id = " + transactionId + " not found");
+            }
+            facade.removeTransaction(transactionId, userId);
+            User user = (transaction.getTransferCategory() == Transaction.Category.DEBIT) ?
+                    transaction.getSender() :
+                    transaction.getRecipient();
+            String category = (transaction.getTransferCategory() == Transaction.Category.DEBIT) ?
+                    "From " :
+                    "To ";
+            System.out.println("Transfer " + category + " " + user.getName() +
+                    "(id = " + user.getIdentifier() + ") " + transaction.getTransferAmount() + " removed");
+        } catch (Exception e) {
+            System.out.println(e);
+        } finally {
+            System.out.println("---------------------------------------------------------");
+        }
+    }
+
+    private User getUserHolder(Transaction transaction) {
+        UsersArrayList listUsers = facade.usersList;
+
+        for (int i = 0; i < listUsers.getNumberOfUsers(); i++) {
+            Transaction[] listTrans = listUsers.getUserByIndex(i).getTransactionsList().toArray();
+            for (int j = 0; listTrans != null && j < listTrans.length; j++) {
+                if (listTrans[j].getIdentifier().equals(transaction.getIdentifier())) {
+                    return listUsers.getUserByIndex(i);
+                }
+            }
+        }
+        return null;
     }
 
     private void checkTransferValidity() {
-        System.out.println("checkTransferValidity");
+        System.out.println("Check results:");
+        Transaction[] transactions = facade.checkValidityOfTransactions();
+        if (transactions != null) {
+            for (Transaction item : transactions) {
+                User userHolder = getUserHolder(item);
+                User userSender = (item.getTransferCategory() == Transaction.Category.DEBIT) ?
+                        item.getSender() :
+                        item.getRecipient();
+                UUID transactionId = item.getIdentifier();
+                int amount = item.getTransferAmount();
+                System.out.println(userHolder.getName() + "(id = " + userHolder.getIdentifier() +
+                        ") has an unacknowledged transfer id = " + transactionId + " from " +
+                        userSender.getName() + "(id = " + userSender.getIdentifier() +
+                        ") for " + amount);
+            }
+            System.out.println("---------------------------------------------------------");
+            return;
+        }
+        System.out.println("There are no unpaired transactions");
+        System.out.println("---------------------------------------------------------");
     }
 }
