@@ -14,6 +14,7 @@ public class Program {
             // method to check signature of file
             SignaturesChecker.analise(signatures, input);
             input = scanner.nextLine();
+
         }
     }
 }
