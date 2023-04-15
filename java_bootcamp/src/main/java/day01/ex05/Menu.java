@@ -5,8 +5,8 @@ import java.util.UUID;
 
 public class Menu {
 
-    private TransactionsService facade;
-    private Scanner scanner;
+    private final TransactionsService facade;
+    private final Scanner scanner;
 
     public Menu() {
         facade = new TransactionsService();
@@ -71,6 +71,7 @@ public class Menu {
                 break;
             case 5:
                 if (!devMode) {
+                    scanner.close();
                     System.exit(0);
                 }
                 removeTransferById();
@@ -79,6 +80,7 @@ public class Menu {
                 checkTransferValidity();
                 break;
             case 7:
+                scanner.close();
                 System.exit(0);
         }
     }
