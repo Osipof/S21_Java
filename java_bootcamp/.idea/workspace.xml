@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Add day01 - ex04 (Final)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/IllegalTransactionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionsLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/UserIdsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/UsersArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/ex05/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="day01 - add scanner.close()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/SignaturesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/SignaturesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/signatures.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +51,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -74,13 +65,26 @@
       <recent name="day01.ex03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day01.ex05.Program">
-    <configuration name="day01.ex00.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.ex00.Program" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.Program" />
       <module name="java_bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.ex00.*" />
+          <option name="PATTERN" value="day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignaturesReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.SignaturesReader" />
+      <module name="java_bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day01.ex02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day01.ex03.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.ex03.Program" />
-      <module name="java_bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.ex03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +121,7 @@
     <configuration name="day01.ex05.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.ex05.Program" />
       <module name="java_bootcamp" />
+      <option name="PROGRAM_PARAMETERS" value="--profile=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day01.ex05.*" />
@@ -142,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.SignaturesReader" />
         <item itemvalue="Application.day01.ex05.Program" />
         <item itemvalue="Application.day01.ex04.Program" />
         <item itemvalue="Application.day01.ex02.Program" />
-        <item itemvalue="Application.day01.ex03.Program" />
-        <item itemvalue="Application.day01.ex00.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +156,9 @@
       <workItem from="1681067907253" duration="5885000" />
       <workItem from="1681135305653" duration="4860000" />
       <workItem from="1681484452119" duration="6605000" />
-      <workItem from="1681500109948" duration="8128000" />
+      <workItem from="1681500109948" duration="8237000" />
+      <workItem from="1681549674401" duration="3278000" />
+      <workItem from="1681591780373" duration="6248000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -229,7 +223,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681501401792</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add day01 - ex05 (TODO::dev 5,6)">
+      <created>1681511341132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681511341132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add day01 - ex05 dev options">
+      <created>1681560425159</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681560425160</updated>
+    </task>
+    <task id="LOCAL-00012" summary="day01 - add scanner.close()">
+      <created>1681595492055</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681595492055</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +272,9 @@
     <MESSAGE value="Add day01 - ex03 and refactoring" />
     <MESSAGE value="Add day01 - ex04 (TODO::Program.java)" />
     <MESSAGE value="Add day01 - ex04 (Final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add day01 - ex04 (Final)" />
+    <MESSAGE value="Add day01 - ex05 (TODO::dev 5,6)" />
+    <MESSAGE value="Add day01 - ex05 dev options" />
+    <MESSAGE value="day01 - add scanner.close()" />
+    <option name="LAST_COMMIT_MESSAGE" value="day01 - add scanner.close()" />
   </component>
 </project>
