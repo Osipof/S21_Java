@@ -16,6 +16,5 @@ public class Program {
             input = scanner.nextLine();
         }
     }
-
 }
 
