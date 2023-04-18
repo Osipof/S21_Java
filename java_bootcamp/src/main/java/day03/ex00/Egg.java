@@ -11,11 +11,6 @@ public class Egg extends Thread {
     public void run() {
         for (int i = 0; i < count; i++) {
             System.out.println("Egg");
-            try {
-                Thread.sleep(10);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
         }
     }
 }

@@ -11,11 +11,6 @@ public class Hen extends Thread {
     public void run() {
         for (int i = 0; i < count; i++) {
             System.out.println("Hen");
-            try {
-                Thread.sleep(100);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
         }
     }
 }
