@@ -10,7 +10,7 @@ public class Program {
         int count = Integer.parseInt(args[0].substring(ARG_START.length()));
 
         if (count <= 0) {
-            System.out.println("Error: Incorrect output: " + count);
+            System.out.println("Error: Incorrect input: " + count);
             System.exit(-1);
         }
 
