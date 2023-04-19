@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class SignaturesReader {
 
-    private static final String SIGNATURES_TXT_PATH = "./src/main/java/day02/ex00/signatures.txt";
+    private static final String SIGNATURES_TXT_PATH = "./signatures.txt";
 
     public static Map<String, String> read() {
         Map<String, String> signatures = new HashMap<>();
