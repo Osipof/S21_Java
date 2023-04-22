@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="add Day 03 - ex03">
-      <change afterPath="$PROJECT_DIR$/day04/ex00/ImagesToChar/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/ex00/ImagesToChar/src/java/edu/school21/printer/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/ex00/ImagesToChar/src/java/edu/school21/printer/logic/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/ex00/ImagesToChar/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/ex00/ImagesToChar/src/java/edu/school21/printer/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/ex00/ImagesToChar/src/java/edu/school21/printer/logic/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/it.bmp" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="add Day 04 - ex00">
+      <change afterPath="$PROJECT_DIR$/day04/ex01/ImagesToChar/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/ex01/ImagesToChar/src/java/edu/school21/printer/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/ex01/ImagesToChar/src/java/edu/school21/printer/logic/Logic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/ex01/ImagesToChar/src/manifest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/ex01/ImagesToChar/src/resources/it.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -42,38 +40,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/regulusb/java/S21_Java/java_bootcamp/src/main/java/day04/ex00/ImagesToChar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Perforce",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/regulusb/java/S21_Java/java_bootcamp/day04/ex01/ImagesToChar/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Perforce&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar/src" />
+      <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar/resources" />
+      <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar" />
       <recent name="$PROJECT_DIR$/src/main/java/day04/ex00/ImagesToChar" />
       <recent name="$PROJECT_DIR$/src/main/java/day02/ex02/Main/folder2" />
-      <recent name="$PROJECT_DIR$/src/main/java/day01/ex02" />
-      <recent name="$PROJECT_DIR$/src/main/java/day01/ex01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar/src" />
       <recent name="$PROJECT_DIR$/src/main/java/day04" />
       <recent name="$PROJECT_DIR$/src/main/java/day02/ex00" />
     </key>
@@ -101,7 +102,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="edu.school21.printer.app.Program" />
       <module name="java_bootcamp" />
-      <option name="PROGRAM_PARAMETERS" value=". 0 $PROJECT_DIR$/../../it.bmp" />
+      <option name="PROGRAM_PARAMETERS" value=". 0" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.school21.printer.app.*" />
@@ -188,7 +189,13 @@
       <workItem from="1681754001150" duration="1693000" />
       <workItem from="1681831436927" duration="6915000" />
       <workItem from="1681912575074" duration="9732000" />
-      <workItem from="1682015307823" duration="2300000" />
+      <workItem from="1682015307823" duration="2490000" />
+      <workItem from="1682084701594" duration="16000" />
+      <workItem from="1682084723318" duration="693000" />
+      <workItem from="1682109887819" duration="15000" />
+      <workItem from="1682170271439" duration="383000" />
+      <workItem from="1682195670175" duration="357000" />
+      <workItem from="1682196032989" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -379,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681921734525</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add Day 04 - ex00">
+      <created>1682017672621</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1682017672621</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +434,8 @@
     <MESSAGE value="add Day 03 - ex01" />
     <MESSAGE value="add Day 03 - ex02" />
     <MESSAGE value="add Day 03 - ex03" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Day 03 - ex03" />
+    <MESSAGE value="add Day 04 - ex00" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Day 04 - ex00" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
