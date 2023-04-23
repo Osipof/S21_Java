@@ -4,82 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="add Day 04 - ex02 (Complete the day)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/day00/ex00/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex00/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day00/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex01/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day00/ex02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex02/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day00/ex03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex03/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day00/ex04/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex04/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex00/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex00/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex00/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex00/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex00/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex00/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex01/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex01/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex01/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex01/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex01/UserIdsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex02/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex02/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex02/UserIdsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex02/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UsersArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex02/UsersArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex02/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex02/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/TransactionNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/TransactionNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/TransactionsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/TransactionsLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/TransactionsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/TransactionsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex03/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex03/UserIdsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/IllegalTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/IllegalTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/TransactionNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/TransactionsLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/TransactionsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/TransactionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/TransactionsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/UserIdsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/UsersArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/UsersArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex04/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex04/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/IllegalTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/IllegalTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/TransactionNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/TransactionsLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/TransactionsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/TransactionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/TransactionsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/UserIdsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/UserIdsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/UsersArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/UsersArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day01/ex05/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex05/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/3DviewerLogo.icns" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/3DviewerLogo.icns" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/SignaturesChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/SignaturesChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/SignaturesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/SignaturesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/picture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/signatures.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/signatures.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex00/text.odt" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex00/text.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex01/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex01/text1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex01/text1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex01/text2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex01/text2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex02/Main/folder1/monkey1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex02/Main/folder1/monkey1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex02/Main/folder1/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex02/Main/folder1/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex02/Main/folder2/monkey2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex02/Main/folder2/monkey2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex02/Main/folder2/parrot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex02/Main/folder2/parrot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day02/ex02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex02/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex00/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex00/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex00/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex00/Hen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex00/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex00/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex01/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex01/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex01/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex01/Hen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex01/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex02/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex02/TempName.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex02/TempName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex03/DownloadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex03/DownloadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex03/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day03/ex03/files_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex03/files_urls.txt" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Moving all days to main directory">
+      <change beforePath="$PROJECT_DIR$/day02/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex01/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682286216376</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Moving all days to main directory">
+      <created>1682286408327</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1682286408327</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add day00 ex00, ex01" />
     <MESSAGE value="ex01 delete comments" />
     <MESSAGE value="Add ex02" />
     <MESSAGE value="Add ex03" />
@@ -521,7 +455,8 @@
     <MESSAGE value="add Day 04 - ex00" />
     <MESSAGE value="add Day 04 - ex01" />
     <MESSAGE value="add Day 04 - ex02 (Complete the day)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Day 04 - ex02 (Complete the day)" />
+    <MESSAGE value="Moving all days to main directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving all days to main directory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

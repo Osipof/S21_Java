@@ -1,5 +1,3 @@
-package day02.ex01;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
