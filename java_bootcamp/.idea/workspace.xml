@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Moving all days to main directory">
-      <change beforePath="$PROJECT_DIR$/day02/ex01/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/ex01/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Delete package (Need to do this to all files before day 04">
+      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Chatroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/home/regulusb/java/S21_Java/java_bootcamp/day04/ex02/ImagesToChar/lib/jcommander-1.72.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -412,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682286408327</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Delete package (Need to do this to all files before day 04">
+      <created>1682286678165</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1682286678165</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ex01 delete comments" />
     <MESSAGE value="Add ex02" />
     <MESSAGE value="Add ex03" />
     <MESSAGE value="Add ex04" />
@@ -456,7 +467,8 @@
     <MESSAGE value="add Day 04 - ex01" />
     <MESSAGE value="add Day 04 - ex02 (Complete the day)" />
     <MESSAGE value="Moving all days to main directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving all days to main directory" />
+    <MESSAGE value="Delete package (Need to do this to all files before day 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete package (Need to do this to all files before day 04" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
