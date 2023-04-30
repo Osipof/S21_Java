@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Delete package (Need to do this to all files before day 04">
-      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Chatroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/schema.sql" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Day 05 - add all files and structure. Need to fill *.sql files">
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models/Chatroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepositoryJdbcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/app/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/exceptions/NotSavedSubEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/models/Chatroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/models/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepositoryJdbcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Chatroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +72,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/home/regulusb/java/S21_Java/java_bootcamp/day04/ex02/ImagesToChar/lib/jcommander-1.72.jar",
+    "last_opened_file_path": "/home/regulusb/java/S21_Java/java_bootcamp/day05/ex02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,18 +80,18 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Perforce",
+    "project.structure.side.proportion": "0.18505748",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day05/ex02" />
+      <recent name="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models" />
+      <recent name="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources" />
       <recent name="$PROJECT_DIR$/day04/ex02/ImagesToChar/src/resources" />
       <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar/src" />
-      <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar/resources" />
-      <recent name="$PROJECT_DIR$/day04/ex01/ImagesToChar" />
-      <recent name="$PROJECT_DIR$/src/main/java/day04/ex00/ImagesToChar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -199,6 +218,7 @@
       <workItem from="1682195670175" duration="357000" />
       <workItem from="1682196032989" duration="1677000" />
       <workItem from="1682282252443" duration="133000" />
+      <workItem from="1682759431305" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -424,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682286678165</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Day 05 - add all files and structure. Need to fill *.sql files">
+      <created>1682445737344</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682445737344</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add ex02" />
     <MESSAGE value="Add ex03" />
     <MESSAGE value="Add ex04" />
     <MESSAGE value="Add day01 - ex00, ex01, ex02" />
@@ -468,7 +494,8 @@
     <MESSAGE value="add Day 04 - ex02 (Complete the day)" />
     <MESSAGE value="Moving all days to main directory" />
     <MESSAGE value="Delete package (Need to do this to all files before day 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete package (Need to do this to all files before day 04" />
+    <MESSAGE value="Day 05 - add all files and structure. Need to fill *.sql files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 05 - add all files and structure. Need to fill *.sql files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

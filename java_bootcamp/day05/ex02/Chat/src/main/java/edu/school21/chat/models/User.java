@@ -1,4 +1,4 @@
-package edu.school21.chat;
+package edu.school21.chat.models;
 
 import java.util.List;
 import java.util.Objects;
@@ -16,6 +16,12 @@ public class User {
         this.password = password;
         this.createdRooms = createdRooms;
         this.usedRooms = usedRooms;
+    }
+
+    public User(Long id, String login, String password) {
+        this.id = id;
+        this.login = login;
+        this.password = password;
     }
 
     public Long getId() {

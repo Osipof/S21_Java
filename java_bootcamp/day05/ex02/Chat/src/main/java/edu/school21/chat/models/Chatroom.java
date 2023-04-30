@@ -1,4 +1,4 @@
-package edu.school21.chat;
+package edu.school21.chat.models;
 
 import java.util.List;
 import java.util.Objects;
@@ -14,6 +14,11 @@ public class Chatroom {
         this.name = name;
         this.owner = owner;
         this.messages = messages;
+    }
+
+    public Chatroom(Long id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     public Long getId() {

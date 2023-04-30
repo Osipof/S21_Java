@@ -11,7 +11,7 @@ create table if not exists chat.user (
 create table if not exists chat.chatroom (
     id          serial primary key,
     title       varchar(20) not null unique,
-    owner       integer not null
+    owner       integer not null,
     foreign key (owner) references chat.user(id)
 );
 
