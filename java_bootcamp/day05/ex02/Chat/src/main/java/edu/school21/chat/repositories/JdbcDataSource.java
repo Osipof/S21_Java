@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class JdbcDataSource {
     private static final String DB_USERNAME = "postgres";
-    private static final String DB_PASSWORD = "Okvaje76";
+    private static final String DB_PASSWORD = "";
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
 
     private HikariDataSource dataSource;
