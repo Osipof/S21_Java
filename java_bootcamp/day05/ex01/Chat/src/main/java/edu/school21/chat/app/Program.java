@@ -12,9 +12,6 @@ import java.sql.Statement;
 import java.util.Optional;
 import java.util.Scanner;
 
-import com.zaxxer.hikari.HikariConfig;
-import com.zaxxer.hikari.HikariDataSource;
-
 public class Program {
     public static void main(String[] args) {
 
@@ -29,23 +26,19 @@ public class Program {
         while (true) {
             System.out.println("Enter a message ID:");
 
-            try {
-                String str = scanner.nextLine();
+            String str = scanner.nextLine();
 
-                if ("exit".equals(str)) {
-                    System.exit(0);
-                }
+            if ("exit".equals(str)) {
+                System.exit(0);
+            }
 
-                Long id = Long.parseLong(str);
-                Optional<Message> message = repository.findById(id);
+            Long id = Long.parseLong(str);
+            Optional<Message> message = repository.findById(id);
 
-                if (message.isPresent()) {
-                    System.out.println(message.get());
-                } else {
-                    System.out.println("Message not found");
-                }
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
+            if (message.isPresent()) {
+                System.out.println(message.get());
+            } else {
+                System.out.println("Message not found");
             }
         }
     }
@@ -55,6 +48,7 @@ public class Program {
              Statement statement = connection.createStatement()) {
 
             InputStream inputStream = Program.class.getClassLoader().getResourceAsStream(file);
+            assert inputStream != null;
             Scanner scanner = new Scanner(inputStream).useDelimiter(";");
 
             while (scanner.hasNext()) {
