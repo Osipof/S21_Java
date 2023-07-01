@@ -16,7 +16,7 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 public class Program {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
 
         JdbcDataSource dataSource = new JdbcDataSource();
         updateData("schema.sql", dataSource);
