@@ -36,11 +36,11 @@ public class Program {
         for (int i = 0; i < threadsCount - 1; i++) {
             begin = i * range;
             end = (i + 1) * range;
-            threadList.add(new TempName(array.subList(begin, end), begin, end));
+            threadList.add(new Summator(array.subList(begin, end), begin, end));
         }
         begin = range * (threadsCount - 1);
         end = arrSize;
-        threadList.add(new TempName(array.subList(begin, end), begin, end));
+        threadList.add(new Summator(array.subList(begin, end), begin, end));
 
         for (Thread thread : threadList) {
             thread.start();
@@ -54,9 +54,7 @@ public class Program {
             }
         }
 
-        System.out.println("Sum by threads: " + TempName.getSumOfThreads());
-
-
+        System.out.println("Sum by threads: " + Summator.getSumOfThreads());
     }
 
     private static void checkInput(String[] args) {

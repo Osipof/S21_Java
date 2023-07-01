@@ -4,33 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Day 05 - add all files and structure. Need to fill *.sql files">
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models/Chatroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepositoryJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/exceptions/NotSavedSubEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/models/Chatroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/models/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepositoryJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/ex02/Chat/src/main/resources/schema.sql" afterDir="false" />
+    <list default="true" id="4d489b82-51b3-484c-b593-2f49352ff30e" name="Changes" comment="Day 05 - add ex01">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/java/edu/school21/chat/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex00/Chat/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/ex02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex02/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/ex02/TempName.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/ex02/Summator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day05/ex01/Chat/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +29,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="4f8e722d-7ef3-4712-9721-144fea58af31" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4f8e722d-7ef3-4712-9721-144fea58af31" />
+        <option name="url" value="git@github.com:Osipof/S21_Java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2O9Mk54KDvHCDQNVsPGVab2jXdG" />
   <component name="ProjectLevelVcsManager">
@@ -59,32 +60,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/home/regulusb/java/S21_Java/java_bootcamp/day05/ex02",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.18505748",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/regulusb/java/S21_Java/java_bootcamp/day05&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.18505748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day05/ex02" />
@@ -104,7 +105,7 @@
       <recent name="day01.ex03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.day03.ex00.Program">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.ex00.ImagesToChar.src.java.edu.school21.printer.app.App" />
       <module name="java_bootcamp" />
@@ -177,10 +178,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day03.ex00.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.day03.ex03.Program" />
-        <item itemvalue="Application.day03.ex00.Program" />
         <item itemvalue="Application.day02.ex01.Program" />
       </list>
     </recent_temporary>
@@ -219,6 +220,12 @@
       <workItem from="1682196032989" duration="1677000" />
       <workItem from="1682282252443" duration="133000" />
       <workItem from="1682759431305" duration="9000" />
+      <workItem from="1684760656054" duration="622000" />
+      <workItem from="1684763002231" duration="4548000" />
+      <workItem from="1685178576414" duration="1248000" />
+      <workItem from="1685209764142" duration="608000" />
+      <workItem from="1685220375483" duration="15000" />
+      <workItem from="1685465353829" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="Add day00 ex00, ex01">
       <created>1680971394889</created>
@@ -451,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682445737344</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Day 05 - add ex01">
+      <created>1682886628150</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682886628150</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add ex03" />
     <MESSAGE value="Add ex04" />
     <MESSAGE value="Add day01 - ex00, ex01, ex02" />
     <MESSAGE value="Add day01 - ex03 and refactoring" />
@@ -495,7 +508,8 @@
     <MESSAGE value="Moving all days to main directory" />
     <MESSAGE value="Delete package (Need to do this to all files before day 04" />
     <MESSAGE value="Day 05 - add all files and structure. Need to fill *.sql files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 05 - add all files and structure. Need to fill *.sql files" />
+    <MESSAGE value="Day 05 - add ex01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 05 - add ex01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2,7 +2,7 @@ package day03.ex02;
 
 import java.util.List;
 
-public class TempName extends Thread {
+public class Summator extends Thread {
     private static int sumOfThreads = 0;
     int bI;
     int lI;
@@ -18,7 +18,7 @@ public class TempName extends Thread {
         return sumOfThreads;
     }
 
-    public TempName(List<Integer> list, int b, int l) {
+    public Summator(List<Integer> list, int b, int l) {
         bI = b;
         lI = l;
         localSum = 0;
