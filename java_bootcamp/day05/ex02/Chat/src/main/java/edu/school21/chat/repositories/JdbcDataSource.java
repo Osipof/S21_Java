@@ -3,22 +3,32 @@ package edu.school21.chat.repositories;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
+import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class JdbcDataSource {
-    private static final String DB_USERNAME = "postgres";
-    private static final String DB_PASSWORD = "";
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
+    private static final String PATH_TO_PROPERTIES = "ex02/Chat/src/main/resources/jdbc.properties";
 
-    private HikariDataSource dataSource;
+    private final HikariDataSource dataSource;
 
     public JdbcDataSource() {
-        HikariConfig config = new HikariConfig();
-        config.setJdbcUrl(DB_URL);
-        config.setUsername(DB_USERNAME);
-        config.setPassword(DB_PASSWORD);
-        dataSource = new HikariDataSource(config);
+        try {
+            FileInputStream fileInputStream = new FileInputStream(PATH_TO_PROPERTIES);
+            Properties properties = new Properties();
+            properties.load(fileInputStream);
+            String DB_USERNAME = (String) properties.get("USERNAME");
+            String DB_PASSWORD = (String) properties.get("PASSWORD");
+            String DB_URL = (String) properties.get("URL");
+            HikariConfig config = new HikariConfig();
+            config.setJdbcUrl(DB_URL);
+            config.setUsername(DB_USERNAME);
+            config.setPassword(DB_PASSWORD);
+            dataSource = new HikariDataSource(config);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public HikariDataSource getDataSource() {

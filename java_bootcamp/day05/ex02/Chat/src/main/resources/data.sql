@@ -1,31 +1,19 @@
-INSERT INTO chat.user(name, password) VALUES
-('Larry Page','Google'), ('Bill Gates','Microsoft'), ('Mark Zuckerberg','Facebook'),
-('Ken Thompson','UNIX'), ('Linus Torvalds','Linux'), ('Ada Lovelace','mathematician')
-ON CONFLICT DO NOTHING;
+insert into chat.user (name, password) VALUES ('user1', '1111');
+insert into chat.user (name, password) VALUES ('user2', '2222');
+insert into chat.user (name, password) VALUES ('user3', '3333');
+insert into chat.user (name, password) VALUES ('user4', '4444');
+insert into chat.user (name, password) VALUES ('user5', '5555');
+insert into chat.user (name, password) VALUES ('user6', '6666');
+insert into chat.user (name, password) VALUES ('user7', '7777');
 
-INSERT INTO chat.chatroom(title, owner) VALUES
-('Chat 1', (SELECT id FROM chat.user WHERE name = 'Larry Page')),
-('Chat 2', (SELECT id FROM chat.user WHERE name = 'Bill Gates')),
-('Chat 3', (SELECT id FROM chat.user WHERE name = 'Mark Zuckerberg')),
-('Chat 4', (SELECT id FROM chat.user WHERE name = 'Ken Thompson')),
-('Chat 5', (SELECT id FROM chat.user WHERE name = 'Linus Torvalds')),
-('Chat 6', (SELECT id FROM chat.user WHERE name = 'Ada Lovelace'))
-ON CONFLICT DO NOTHING;
+insert into chat.chatroom (chat_name, chat_owner) values ('chat1', 1);
+insert into chat.chatroom (chat_name, chat_owner) values ('chat2', 2);
+insert into chat.chatroom (chat_name, chat_owner) values ('chat3', 3);
+insert into chat.chatroom (chat_name, chat_owner) values ('chat4', 4);
+insert into chat.chatroom (chat_name, chat_owner) values ('chat5', 5);
 
-INSERT INTO chat.message (author, room, text) VALUES
-((SELECT id FROM chat.user WHERE name = 'Larry Page'),      (SELECT id FROM chat.chatroom WHERE title = 'Chat 1'), 'Hello, I am Larry'),
-((SELECT id FROM chat.user WHERE name = 'Bill Gates'),      (SELECT id FROM chat.chatroom WHERE title = 'Chat 2'), 'Hello, I am Bill'),
-((SELECT id FROM chat.user WHERE name = 'Mark Zuckerberg'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 3'), 'Hello, I am Mark'),
-((SELECT id FROM chat.user WHERE name = 'Ken Thompson'),    (SELECT id FROM chat.chatroom WHERE title = 'Chat 4'), 'Hello, I am Ken'),
-((SELECT id FROM chat.user WHERE name = 'Linus Torvalds'),  (SELECT id FROM chat.chatroom WHERE title = 'Chat 5'), 'Hello, I am Linus'),
-((SELECT id FROM chat.user WHERE name = 'Ada Lovelace'),    (SELECT id FROM chat.chatroom WHERE title = 'Chat 6'), 'Hello, I am Ada')
-ON CONFLICT DO NOTHING;
-
-INSERT INTO chat.user_chatroom (user_id, chat_id) VALUES
-((SELECT id FROM chat.user WHERE name = 'Larry Page'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 1')),
-((SELECT id FROM chat.user WHERE name = 'Bill Gates'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 2')),
-((SELECT id FROM chat.user WHERE name = 'Mark Zuckerberg'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 3')),
-((SELECT id FROM chat.user WHERE name = 'Ken Thompson'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 4')),
-((SELECT id FROM chat.user WHERE name = 'Linus Torvalds'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 5')),
-((SELECT id FROM chat.user WHERE name = 'Ada Lovelace'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 6'))
-ON CONFLICT DO NOTHING;
+insert into chat.message (sender_id, room_id, text, ldatetime) VALUES (1, 2, 'Hello, world!', to_timestamp('2023/05/29 10:12:48', 'YYYY/MM/DD HH:MI:SS'));
+insert into chat.message (sender_id, room_id, text, ldatetime) VALUES (2, 2, 'Hello, user2!', to_timestamp('2023/05/29 10:12:48', 'YYYY/MM/DD HH:MI:SS'));
+insert into chat.message (sender_id, room_id, text, ldatetime) VALUES (3, 2, 'Hello, my friends!', to_timestamp('2023/05/29 10:12:48', 'YYYY/MM/DD HH:MI:SS'));
+insert into chat.message (sender_id, room_id, text, ldatetime) VALUES (7, 1, 'What is your name?', to_timestamp('2023/05/29 10:12:48', 'YYYY/MM/DD HH:MI:SS'));
+insert into chat.message (sender_id, room_id, text, ldatetime) VALUES (6, 1, 'Oh, my name is user6!', to_timestamp('2023/05/29 10:12:48', 'YYYY/MM/DD HH:MI:SS'));
