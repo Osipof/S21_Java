@@ -43,7 +43,7 @@ public class MessagesRepositoryJdbcImpl implements MessagesRepository {
     }
 
     @Override
-    public boolean save(Message message) {
+    public void save(Message message) {
 
         String saveMessageQuery = "INSERT INTO chat.message (sender_id, room_id, text, ldatetime) VALUES (" +
                 message.getAuthor().getId() + ", " +
@@ -70,7 +70,6 @@ public class MessagesRepositoryJdbcImpl implements MessagesRepository {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return false;
     }
 
     private User findUser(Long id) throws SQLException {
